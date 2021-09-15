@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 400px;
+  max-width: 600px;
+  height: 500px;
+  outline: 2px solid crimson;
+  margin: 20px auto;
+  display: flex;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background: darkcyan;
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+  line-height: 80px;
+}
+
+.item2 {
+  background: cornflowerblue;
+  margin-left: auto;
+}
+
+.item3 {
+  background: coral;
+  /* flex-grow: 3; */
+}
+
+.item4 {
+  background: blueviolet;
+}
